@@ -1,0 +1,34 @@
+{
+  "name": "autocomplete-app",
+  "version": "1.0.0",
+  "description": "Node application - autocomplete word lookup",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./src/test/test.js | tap-spec",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artysidorenko/AutoComplete-App.git"
+  },
+  "keywords": [
+    "node",
+    "beginner",
+    "dictionary",
+    "word-search"
+  ],
+  "author": "Arty Sidorenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artysidorenko/AutoComplete-App/issues"
+  },
+  "homepage": "https://github.com/artysidorenko/AutoComplete-App#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "jasmine-ajax": "^3.4.0",
+    "jsdom": "^13.1.0",
+    "mock-browser": "^0.92.14",
+    "nodemon": "^1.18.9",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

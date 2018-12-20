@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoComplete Word Service</title>
+    <link href="styles.css" rel="stylesheet">
+    <script type="text/javascript" src="./index.js"></script>
+  </head>
+
+  <body>
+    <div id="search-div">
+      <h1>AutoComplete Service</h1>
+      <h3>Instructions: start typing a desired word which will be looked up automatically by the server. Or <a href="/words">click to access entire lexicon/dictionary file.</a></h3>
+      <h3 class="note">Note: application does not support spellcheck.</h3>
+      <div action="/searchText" method="post" id="search-div">
+        <input type="text" id="search-box" name="search" value="" placeholder="Enter Query Here">
+      </div>
+    </div>
+    <div id="results-div">
+      <ul id="suggestions">
+        <!-- <li>test</li><li>test</li><li>test</li><li>test</li><li>test</li><li>test</li>
+        <li>test</li><li>test</li><li>test</li><li>test</li><li>test</li><li>test</li>
+        <li>test</li><li>test</li><li>test</li><li>test</li><li>test</li><li>test</li>
+        <li>test</li><li>test</li><li>test</li><li>test</li><li>test</li><li>test</li> -->
+      </ul>
+    </div>
+
+  </body>
+
+</html>
