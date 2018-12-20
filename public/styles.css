@@ -44,3 +44,9 @@ li:hover {
   opacity: 0.5;
   background-color: rgba(91, 86, 87, 0.46)
 }
+
+footer  {
+  font-style: italic;
+  font-size: small;
+  color: rgb(52, 24, 15)
+}
