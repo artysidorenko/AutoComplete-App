@@ -18,7 +18,7 @@ handlers.searchText = function(req, res)  {
     model.import(function() {
       results = model.stringSearch(searchText, model.words);
       resultsText = JSON.stringify(results);
-      res.writeHead(200, {'content-type': 'application/json'})
+      res.writeHead(200, {'content-type': 'application/json'});
       res.end(resultsText);
     });
   });

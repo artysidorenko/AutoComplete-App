@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/artysidorenko/AutoComplete-App#readme",
   "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "jasmine": "^3.3.1",
     "jasmine-ajax": "^3.4.0",
     "jsdom": "^13.1.0",
